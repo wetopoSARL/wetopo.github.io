@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projets — WETOPO | Réalisations Topographiques à Marrakech</title>
+  <meta name="description" content="Découvrez les réalisations du cabinet WETOPO : levés topographiques, bornages, implantations et suivis de chantier à Marrakech.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" role="navigation" aria-label="Navigation principale">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="WETOPO — Accueil">
+        <img src="assets/images/logo.jpg" alt="WETOPO logo" width="140" height="44">
+      </a>
+      <div class="navbar__overlay"></div>
+      <ul class="navbar__menu">
+        <li><a href="index.html" class="navbar__link">Accueil</a></li>
+        <li><a href="about.html" class="navbar__link">À propos</a></li>
+        <li><a href="services.html" class="navbar__link">Services</a></li>
+        <li><a href="projects.html" class="navbar__link active">Projets</a></li>
+        <li><a href="contact.html" class="navbar__link">Contact</a></li>
+        <li class="navbar__cta">
+          <a href="contact.html" class="btn btn--primary btn--sm">Demander un devis</a>
+        </li>
+      </ul>
+      <button class="navbar__toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Nos projets</h1>
+      <p class="page-header__desc">Exemples de missions réalisées. Chaque projet reflète notre méthode et notre exigence de qualité.</p>
+    </div>
+  </header>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" aria-label="Projets réalisés">
+    <div class="container">
+
+      <!-- Filtres -->
+      <div class="projects-filters fade-in">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="leve">Levé</button>
+        <button class="filter-btn" data-filter="foncier">Foncier</button>
+        <button class="filter-btn" data-filter="implantation">Implantation</button>
+        <button class="filter-btn" data-filter="avance">Avancé</button>
+      </div>
+
+      <!-- Grille de projets -->
+      <div class="projects__grid">
+
+        <!-- Projet 1 -->
+        <div class="project-card fade-in delay-1" data-category="implantation">
+          <div class="project-card__image">
+            <span class="project-card__category">Implantation</span>
+            <!-- Placeholder pour image projet -->
+            <span>Image du projet</span>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Villa R+1 — Implantation complète</h3>
+            <div class="project-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Marrakech
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                2024
+              </span>
+            </div>
+            <p class="project-card__desc">
+              Implantation des axes, niveaux et repères pour une villa R+1 en zone périurbaine. Contrôle géométrique avant coulage des fondations.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Implantation</span>
+              <span class="project-card__tag">Villa</span>
+              <span class="project-card__tag">Contrôle</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="project-card fade-in delay-2" data-category="leve">
+          <div class="project-card__image">
+            <span class="project-card__category">Levé</span>
+            <span>Image du projet</span>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Terrain agricole — Levé topographique</h3>
+            <div class="project-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Région Marrakech
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                2024
+              </span>
+            </div>
+            <p class="project-card__desc">
+              Levé topographique détaillé d'un terrain de 2 hectares. Plan avec courbes de niveau, limites parcellaires et éléments existants.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Levé</span>
+              <span class="project-card__tag">Plan topo</span>
+              <span class="project-card__tag">Courbes de niveau</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 3 -->
+        <div class="project-card fade-in delay-3" data-category="foncier">
+          <div class="project-card__image">
+            <span class="project-card__category">Foncier</span>
+            <span>Image du projet</span>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Bornage — Lot en zone urbaine</h3>
+            <div class="project-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Marrakech
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                2024
+              </span>
+            </div>
+            <p class="project-card__desc">
+              Bornage contradictoire d'un lot urbain avec établissement du plan de délimitation et vérification de la superficie par rapport au titre foncier.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Bornage</span>
+              <span class="project-card__tag">Foncier</span>
+              <span class="project-card__tag">Délimitation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Note projets futurs -->
+      <!--
+        POUR AJOUTER UN PROJET :
+        Dupliquer un bloc <div class="project-card"> ci-dessus.
+        Modifier data-category avec : leve, foncier, implantation, ou avance.
+        Mettre à jour le titre, la description, les tags et l'image.
+      -->
+
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="section cta-section" aria-label="Appel à action">
+    <div class="container">
+      <h2 class="cta-section__title fade-in">Un projet similaire ?</h2>
+      <p class="cta-section__text fade-in">Chaque mission est unique. Contactez-nous pour discuter de la vôtre.</p>
+      <div class="btn-group fade-in">
+        <a href="contact.html" class="btn btn--primary btn--lg">Demander un devis</a>
+        <a href="services.html" class="btn btn--white btn--lg">Voir nos services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/images/logo.jpg" alt="WETOPO" class="footer__logo">
+          <p>Cabinet d'ingénierie topographique à Marrakech. Levés, bornage, implantation, suivi de chantier — une topographie rigoureuse au service de vos projets.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html#etudes">Levés topographiques</a></li>
+            <li><a href="services.html#foncier">Foncier & bornage</a></li>
+            <li><a href="services.html#implantation">Implantation</a></li>
+            <li><a href="services.html#avancees">Solutions avancées</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Marrakech, Maroc</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>contact@wetopo.ma</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>+212 6XX XXX XXX</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 WETOPO. Tous droits réservés.</span>
+        <span>Ingénieur Géomètre Topographe — Marrakech</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
